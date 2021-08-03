@@ -146,6 +146,10 @@ html, body {
     height: 3.2rem;
 }
 
+.textPopup .text {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Media Queries */
 
 @media (max-width: 600px) {
