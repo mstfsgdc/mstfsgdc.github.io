@@ -39,6 +39,7 @@ html, body {
 
 .header a {
     line-height: 1;
+    display: inline-flex;
 }
 
 .header a span {
@@ -144,10 +145,6 @@ html, body {
 .textPopup {
     width: 22rem;
     height: 3.2rem;
-}
-
-.textPopup .text {
-    font-family: 'Poppins', sans-serif;
 }
 
 /* Media Queries */
