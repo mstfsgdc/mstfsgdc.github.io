@@ -109,6 +109,32 @@ html, body {
     font-size: 1.6rem;
 }
 
+/* Other Pages */
+
+.content .projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.content .projects .card {
+    width: calc(50% - 5rem);
+    background: rgba(185, 185, 185, 0.3);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1.5rem 1rem;
+}
+
+.content .projects .card h1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.content .projects .card p {
+    font-size: 1rem;
+}
+
 /* Footer */
 
 .footer {
@@ -142,9 +168,13 @@ html, body {
 
 /* Typed.JS */
 
-.textPopup {
+.text-popup {
     width: 22rem;
     height: 3.2rem;
+}
+
+.text-popup .text {
+    font-size: 2.2rem; font-weight: bold
 }
 
 /* Media Queries */
@@ -166,6 +196,14 @@ html, body {
     .header {
         align-items: center;
         justify-content: center;
+    }
+
+    /* Other Pages */
+
+    .content .projects .card {
+        width: 100%;
+        padding: 0.6rem;
+        margin: 0.75rem 0.5rem;
     }
 }
 
