@@ -135,6 +135,35 @@ html, body {
     font-size: 1rem;
 }
 
+/* Contact */
+
+.content.contact {
+    flex-direction: unset;
+}
+
+.icon {
+    color: #000;
+    transition: all 0.4s ease;
+}
+
+.icon:hover {
+    color: grey;
+}
+
+.icons {
+    background-color: #72727250;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+.icons :not(:first-child) {
+    margin-left: 1rem;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
 /* Footer */
 
 .footer {
