@@ -144,7 +144,15 @@ html, body {
   margin: 1.5rem 1rem;
 }
 
-.content .projects .card h1 {
+.content .projects .card a, .content .projects .card a:visited, .content .projects .card a:focus {
+  color: #000;
+}
+
+.content .projects .card a {
+  text-decoration: none;
+}
+
+.content .projects .card a h1 {
   font-size: 1.3rem;
   font-weight: bold;
 }
@@ -155,10 +163,15 @@ html, body {
 
 /* Contact */
 .content.contact {
-  -webkit-box-orient: unset;
-  -webkit-box-direction: unset;
-      -ms-flex-direction: unset;
-          flex-direction: unset;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content.contact span {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 
 .icon {
