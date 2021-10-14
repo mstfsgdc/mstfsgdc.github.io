@@ -1,0 +1,326 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+@import "colors";
+
+$iconColor: #000000;
+$iconsBgColor: #72727250;
+
+$containerBgColor: $f1;
+
+$bgColor: $f1;
+
+$headerColor: $Black;
+
+$topNavBgColor: #333;
+$topNavColor: #f2f2f2;
+
+html, body {
+    font: 1rem 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Container */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    /* Background */
+    background-color: $containerBgColor;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c0bfc1' fill-opacity='0.2' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    background-color: $bgColor;
+    padding: 2rem 5rem;
+    font-size: 2rem;
+    transition: all 0.2s ease;
+
+    a {
+        line-height: 1;
+        display: inline-flex;
+
+        span {
+            font-weight: bold;
+        }
+    }
+}
+
+.header a,
+.header a:visited,
+.header a:visited:active {
+    color: $headerColor;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #5D3FD3;
+}
+
+.fa-github {
+    margin-right: 0.8rem;
+}
+
+/* Top Navigation */
+
+.top-nav {
+    /* overflow: hidden; */
+    background-color: $topNavBgColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Shadow */
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(194,194,194,0.75);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(194,194,194,0.75);
+    box-shadow: 10px 10px 20px 0px rgba(194,194,194,0.75);
+
+    a {
+        display: block;
+        color: $topNavColor;
+        text-align: center;
+        padding: 1.5rem .5rem;
+        text-decoration: none;
+        transition: all 0.3s ease-in;
+        font: {
+            family: 'Quicksand', sans-serif;
+            weight: bold;
+        }
+
+        &:not(:first-child) {
+            margin-left: 2rem;
+        }
+
+        &:hover {
+            background-color: #dedede;
+            color: #2E1B79;
+        }
+    }
+}
+
+/* Content */
+
+.content {
+    margin: 1.6rem 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.6rem;
+    overflow-y: auto;
+}
+
+/* Other Pages */
+
+.content .projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .card {
+        width: calc(50% - 5rem);
+        background: rgba(185, 185, 185, 0.3);
+        border-radius: 0.5rem;
+        padding: 1rem;
+        margin: 1.5rem 1rem;
+
+        a, a:visited, a:focus {
+            color: $Black;
+        }
+
+        a {
+            text-decoration: none;
+
+            h1 {
+                font: {
+                    size: 1.3rem;
+                    weight: bold;
+                }
+            }
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+    }
+}
+
+/* Contact */
+
+.content.contact {
+    flex-direction: column;
+
+    span {
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+    }
+
+    span:not(:first-child) {
+        margin-top: 1rem;
+    }
+
+    .my-contents {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .twitch-area a,
+        .youtube-area a {
+            text-decoration: none;
+            color: $Black;
+        }
+
+        .twitch-area,
+        .youtube-area {
+            width: 9rem;
+            padding: .5rem 0;
+            margin: 0 1.5rem;
+            border-radius: .5rem;
+        }
+
+        .twitch-area {
+            background-color: $twitch-area-bg;
+        }
+
+        .youtube-area {
+            background-color: $youtube-area-bg;
+        }
+
+        & > div > a {
+            h3 {
+                font: {
+                    weight: 700;
+                    size: 1.5rem;
+                }
+            }
+
+            h4 {
+                font: {
+                    size: 1.1rem;
+                }
+            }
+
+            img {
+                margin-top: .5rem;
+            }
+        }
+    }
+}
+
+.icon {
+    color: $iconColor;
+    transition: all 0.4s ease;
+
+    &:hover {
+        color: lighten($iconColor, 50%);
+    }
+}
+
+.icons {
+    background-color: $iconsBgColor;
+    padding: 1rem;
+    border-radius: 0.8rem;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.icons :not(:first-child) {
+    margin-left: 1rem;
+}
+
+/* Footer */
+
+.footer {
+    margin-top: auto;
+    background-color: var(--bg-color);
+    text-align: center;
+    padding: 1rem;
+    /* Shadow */
+    -webkit-box-shadow: 0px -5px 30px 0px rgba(97,97,97,.25);
+    -moz-box-shadow: 0px -5px 30px 0px rgba(97,97,97,.25);
+    box-shadow: 0px -5px 30px 0px rgba(97,97,97,.25);
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Typed.JS */
+
+.text-popup {
+    width: 22rem;
+    height: 3.2rem;
+
+    .text {
+        font: {
+            size: 2.2rem;
+            weight: bold;
+        }
+    }
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+    .content {
+        margin: 1rem;
+    }
+    .content .textPopup .text {
+        font-size: 1.6rem !important;
+    }
+    .top-nav a {
+        font-size: 0.8rem;
+        padding: 1.2rem 0.3rem;
+
+        &:not(:first-child) {
+            margin-left: 0.4rem;
+        }
+    }
+    .header {
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Other Pages */
+
+    .content .projects .card {
+        width: 100%;
+        padding: 0.6rem;
+        margin: 0.75rem 0.5rem;
+    }
+}
+
+@media (max-width: 370px) {
+    .header a {
+        font-size: 1.4rem;
+    }
+}

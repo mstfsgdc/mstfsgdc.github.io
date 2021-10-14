@@ -121,6 +121,7 @@ html, body {
           align-items: center;
   text-align: center;
   font-size: 1.6rem;
+  overflow-y: auto;
 }
 
 /* Other Pages */
@@ -172,6 +173,58 @@ html, body {
 .content.contact span {
   font-weight: bold;
   margin-bottom: 1.5rem;
+}
+
+.content.contact span:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.content.contact .my-contents {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content.contact .my-contents .twitch-area a,
+.content.contact .my-contents .youtube-area a {
+  text-decoration: none;
+  color: #000;
+}
+
+.content.contact .my-contents .twitch-area,
+.content.contact .my-contents .youtube-area {
+  width: 9rem;
+  padding: .5rem 0;
+  margin: 0 1.5rem;
+  border-radius: .5rem;
+}
+
+.content.contact .my-contents .twitch-area {
+  background-color: rgba(90, 62, 133, 0.3);
+}
+
+.content.contact .my-contents .youtube-area {
+  background-color: rgba(238, 49, 36, 0.3);
+}
+
+.content.contact .my-contents > div > a h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.content.contact .my-contents > div > a h4 {
+  font-size: 1.1rem;
+}
+
+.content.contact .my-contents > div > a img {
+  margin-top: .5rem;
 }
 
 .icon {
