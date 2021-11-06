@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.cb5ac395.chunk.css",
-    "main.js": "/static/js/main.1f3e5782.chunk.js",
-    "main.js.map": "/static/js/main.1f3e5782.chunk.js.map",
+    "main.js": "/static/js/main.b6e545ef.chunk.js",
+    "main.js.map": "/static/js/main.b6e545ef.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.719e6640.js",
     "runtime-main.js.map": "/static/js/runtime-main.719e6640.js.map",
-    "static/js/2.e621ce77.chunk.js": "/static/js/2.e621ce77.chunk.js",
-    "static/js/2.e621ce77.chunk.js.map": "/static/js/2.e621ce77.chunk.js.map",
+    "static/js/2.65b6612d.chunk.js": "/static/js/2.65b6612d.chunk.js",
+    "static/js/2.65b6612d.chunk.js.map": "/static/js/2.65b6612d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.cb5ac395.chunk.css.map": "/static/css/main.cb5ac395.chunk.css.map",
-    "static/js/2.e621ce77.chunk.js.LICENSE.txt": "/static/js/2.e621ce77.chunk.js.LICENSE.txt",
+    "static/js/2.65b6612d.chunk.js.LICENSE.txt": "/static/js/2.65b6612d.chunk.js.LICENSE.txt",
     "static/media/socialmediabadges_photo.70718a6f.png": "/static/media/socialmediabadges_photo.70718a6f.png",
     "static/media/twitch-seeklogo.com.9665ad35.svg": "/static/media/twitch-seeklogo.com.9665ad35.svg",
     "static/media/youtube-seeklogo.com.e16aa857.svg": "/static/media/youtube-seeklogo.com.e16aa857.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.719e6640.js",
-    "static/js/2.e621ce77.chunk.js",
+    "static/js/2.65b6612d.chunk.js",
     "static/css/main.cb5ac395.chunk.css",
-    "static/js/main.1f3e5782.chunk.js"
+    "static/js/main.b6e545ef.chunk.js"
   ]
 }
