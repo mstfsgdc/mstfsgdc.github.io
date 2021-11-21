@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.99969251.chunk.css",
-    "main.js": "/static/js/main.afea367a.chunk.js",
-    "main.js.map": "/static/js/main.afea367a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.719e6640.js",
-    "runtime-main.js.map": "/static/js/runtime-main.719e6640.js.map",
-    "static/js/2.b5f8de41.chunk.js": "/static/js/2.b5f8de41.chunk.js",
-    "static/js/2.b5f8de41.chunk.js.map": "/static/js/2.b5f8de41.chunk.js.map",
+    "main.css": "/static/css/main.109a2e66.chunk.css",
+    "main.js": "/static/js/main.a488ef09.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.c7402094.js",
+    "static/js/2.de0491d0.chunk.js": "/static/js/2.de0491d0.chunk.js",
     "index.html": "/index.html",
-    "static/css/main.99969251.chunk.css.map": "/static/css/main.99969251.chunk.css.map",
-    "static/js/2.b5f8de41.chunk.js.LICENSE.txt": "/static/js/2.b5f8de41.chunk.js.LICENSE.txt",
-    "static/media/socialmediabadges_photo.70718a6f.png": "/static/media/socialmediabadges_photo.70718a6f.png",
-    "static/media/twitch-seeklogo.com.9665ad35.svg": "/static/media/twitch-seeklogo.com.9665ad35.svg",
-    "static/media/youtube-seeklogo.com.e16aa857.svg": "/static/media/youtube-seeklogo.com.e16aa857.svg"
+    "precache-manifest.6768c3817281036a6e9bc5fa1fef1fef.js": "/precache-manifest.6768c3817281036a6e9bc5fa1fef1fef.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.de0491d0.chunk.js.LICENSE.txt": "/static/js/2.de0491d0.chunk.js.LICENSE.txt",
+    "static/media/education-svgrepo-com.svg": "/static/media/education-svgrepo-com.cf5c80e9.svg",
+    "static/media/photo.png": "/static/media/photo.d453e416.png",
+    "static/media/react.svg": "/static/media/react.8e26f220.svg",
+    "static/media/science-svgrepo-com.svg": "/static/media/science-svgrepo-com.bf6f4671.svg",
+    "static/media/twitch-seeklogo.com.svg": "/static/media/twitch-seeklogo.com.e1f7813a.svg",
+    "static/media/youtube-seeklogo.com.svg": "/static/media/youtube-seeklogo.com.1615e4b5.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.719e6640.js",
-    "static/js/2.b5f8de41.chunk.js",
-    "static/css/main.99969251.chunk.css",
-    "static/js/main.afea367a.chunk.js"
+    "static/js/runtime-main.c7402094.js",
+    "static/js/2.de0491d0.chunk.js",
+    "static/css/main.109a2e66.chunk.css",
+    "static/js/main.a488ef09.chunk.js"
   ]
 }
