@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.109a2e66.chunk.css",
-    "main.js": "/static/js/main.a488ef09.chunk.js",
+    "main.css": "/static/css/main.b5a81f01.chunk.css",
+    "main.js": "/static/js/main.2ece9bb5.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.c7402094.js",
     "static/js/2.de0491d0.chunk.js": "/static/js/2.de0491d0.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.3a59e52ef25e2bdecedc85a29c918344.js": "/precache-manifest.3a59e52ef25e2bdecedc85a29c918344.js",
+    "precache-manifest.8398a99b627449d7fb7769aa1dac4e4e.js": "/precache-manifest.8398a99b627449d7fb7769aa1dac4e4e.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.de0491d0.chunk.js.LICENSE.txt": "/static/js/2.de0491d0.chunk.js.LICENSE.txt",
     "static/media/education-svgrepo-com.svg": "/static/media/education-svgrepo-com.cf5c80e9.svg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.c7402094.js",
     "static/js/2.de0491d0.chunk.js",
-    "static/css/main.109a2e66.chunk.css",
-    "static/js/main.a488ef09.chunk.js"
+    "static/css/main.b5a81f01.chunk.css",
+    "static/js/main.2ece9bb5.chunk.js"
   ]
 }
