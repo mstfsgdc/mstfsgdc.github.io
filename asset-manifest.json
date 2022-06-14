@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.e95a87e3.chunk.css",
-    "main.js": "/static/js/main.1369b0fb.chunk.js",
+    "main.css": "/static/css/main.020138b4.chunk.css",
+    "main.js": "/static/js/main.0b435a90.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.c7402094.js",
-    "static/js/2.4e4cf58c.chunk.js": "/static/js/2.4e4cf58c.chunk.js",
+    "static/js/2.fa4696b7.chunk.js": "/static/js/2.fa4696b7.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.3e9892e4664d9c553f34ce2af1bf7d04.js": "/precache-manifest.3e9892e4664d9c553f34ce2af1bf7d04.js",
+    "precache-manifest.d08060e558e20a565a174c4fa336de52.js": "/precache-manifest.d08060e558e20a565a174c4fa336de52.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.4e4cf58c.chunk.js.LICENSE.txt": "/static/js/2.4e4cf58c.chunk.js.LICENSE.txt",
+    "static/js/2.fa4696b7.chunk.js.LICENSE.txt": "/static/js/2.fa4696b7.chunk.js.LICENSE.txt",
     "static/media/education-svgrepo-com.svg": "/static/media/education-svgrepo-com.cf5c80e9.svg",
     "static/media/photo.png": "/static/media/photo.d453e416.png",
     "static/media/react.svg": "/static/media/react.8e26f220.svg",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c7402094.js",
-    "static/js/2.4e4cf58c.chunk.js",
-    "static/css/main.e95a87e3.chunk.css",
-    "static/js/main.1369b0fb.chunk.js"
+    "static/js/2.fa4696b7.chunk.js",
+    "static/css/main.020138b4.chunk.css",
+    "static/js/main.0b435a90.chunk.js"
   ]
 }
